@@ -27,7 +27,8 @@ A simple YouTube Web-App focussed on music playback
 - Related videos browser - dive into related videos of related videos (could work great with next-up queue) 
 
 ## Known Issues
-- Currently cannot play back videos with licensed music (see Issue #1), unless a local cors server is used (possible on PC, not on mobile). Caching the audio does work still.
+- Currently cannot play back videos with licensed music (see Issue #1), unless a local cors server is used (possible on PC, not on mobile(view note)). Caching the audio does work still.
+  NOTE:deploying CORS server is possible on smartphone but it is quite messy to do so it cannot be impletmented so far. Documentation to existing way(s) to do so would be updated later on.
 - Video Playback, especially high resolutions, are pretty laggy and can go out of sync. Proper MSE implemenentation is needed AND local CORS server, since MSE would force all streams to be routed through a CORS server
 - Wrong aspect of thumbnails for videos with 1. only low resolution thumbnail AND 2. non 16-9 ratio - pretty rare
 - Current video title is original (not translated), while related videos, etc. are all translated
