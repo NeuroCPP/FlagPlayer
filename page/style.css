@@ -9,19 +9,19 @@ See https://github.com/Seneral/FlagPlayer for details
 :root {
 }
 body { /* Light Skin */
-	--txt-color: #444;	 			/* Primary Text */
-	--txt-sec-color: #666; 			/* Secondary Text */
-	--bg-color: #f9f9f9;	 		/* Main Background 				- Main Page */
-	--bg-acc-color: #ddd;			/* Background Accent			- Seperators */
-	--bg-sec-color: #fff; 			/* Secondary Background 		- Header, Playlist */
-	--bg-sec-acc-color: #ddd;		/* Secondary Background Accent 	- Header, Playlist Border */
-	--icon-color: #777; 			/* Icon Color */
+	--txt-color: #2a2c24;	 			/* Primary Text */
+	--txt-sec-color: #7e5835d9; 			/* Secondary Text */
+	--bg-color: #a8dadc;	 		/* Main Background 				- Main Page */
+	--bg-acc-color: #457b9d;			/* Background Accent			- Seperators */
+	--bg-sec-color: #457b9dad; 			/* Secondary Background 		- Header, Playlist */
+	--bg-sec-acc-color: #d9933dad;		/* Secondary Background Accent 	- Header, Playlist Border */
+	--icon-color: #1d3557; 			/* Icon Color */
 	--ctrl-color: #444; 			/* Primary Control Text 		- Button/Dropdown Text */
 	--ctrl-sec-color: #888; 		/* Secondary Control 			- Sentiment-Background, ... */
-	--ctrl-bg-color: #dedede; 		/* Primary Control background 	- Buttons, Dropdown, ... */
+	--ctrl-bg-color: #e5e1e1; 		/* Primary Control background 	- Buttons, Dropdown, ... */
 	--ctrl-bg-sec-color: #ababab;	/* Secondary Control Background - Highlighted stuff */
 	--ctrl-bg-ter-color: #f8f8f8; 	/* Tertiary Control Background 	- Fields */
-	--acc-color: #cc0000; 			/* Main Accent 					- Timeline, Some Controls */
+	--acc-color: #f71111d4; 			/* Main Accent 					- Timeline, Some Controls */
 	--acc-sec-color: #2196F3; 		/* Secondary Accent 			- Sentiment Bar */
 }
 body.theme-dark { /* Dark Skin */
